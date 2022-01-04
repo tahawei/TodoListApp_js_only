@@ -31,6 +31,7 @@ h1 {
   padding: 5px;
   border-bottom: 2px solid #fff;
   border-top: 2px solid #fff;
+  position: relative;
 }
 .icon {
   font-size: 22px;
@@ -48,6 +49,7 @@ p {
 .icon-trash {
   opacity: 0.4;
 }
+
 .icon.icon-star:hover {
   opacity: 1;
   color: orange;
@@ -79,7 +81,7 @@ form {
 }
 input {
   padding: 10px 20px;
-  border-radius: 6px;
+  border-radius: 15px;
   width: 35vw;
   font-size: 21px;
 }
@@ -104,10 +106,16 @@ button {
 }
 /* For Js */
 
-.dn {
+.icon-angry2.dn {
   display: none;
 }
+
 .icon-heart {
-  width: 32px;
+  font-size: 23px;
   color: red;
+}
+
+.icon.icon-star.orange {
+  color: orange;
+  opacity: 1;
 }
