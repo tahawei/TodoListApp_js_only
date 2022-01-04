@@ -102,3 +102,12 @@ input::placeholder {
 button {
   all: unset;
 }
+/* For Js */
+
+.dn {
+  display: none;
+}
+.icon-heart {
+  width: 32px;
+  color: red;
+}
